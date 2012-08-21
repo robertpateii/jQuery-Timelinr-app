@@ -14,3 +14,4 @@ Admins are defined by their google account IDs.
 Todo:
 * Validate/escape the form submissions on the server side to prevent admins from injecting code on the homepage.
 * Add more OAuth sources.
+* Migrate off of the jade template engine to something more html focused such as ejs
