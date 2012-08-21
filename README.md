@@ -4,8 +4,7 @@ jQuery-Timelinr-app
 A node application for hosting the Timelinr plugin on a webpage and adding images to it.
 
 
-The latest from https://github.com/juanbrujo/jQuery-Timelinr can be copied right into
-the /public directory.
+The latest from juanbrujo/jQuery-Timelinr can be copied right into the /public directory.
 
 To host this, you'll need to create a heroku account and setup a Google project for an OAuth API key.
 
