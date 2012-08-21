@@ -1,0 +1,45 @@
+﻿/*----------------------
+Loading Image
+----------------------- */
+#timeline {
+    display:none;
+}
+#timelineLoading {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-image:url('../images/loading.gif');
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:center 30%;
+}
+
+/*---------------------
+Navigation
+----------------------- */
+#nav {
+  text-align:right;
+}
+
+#nav li {
+    margin: 1em;
+}
+
+/*---------------------
+Admin Page
+----------------------- */
+form {
+    margin: 10px auto 0 auto;
+    width: 200px;
+}
+
+input {
+    width: 180px;
+    margin: 2px;
+}
+
+button {
+    padding:5px 8px 5px 8px;
+    margin: 2px;
+    width: 185px;
+}

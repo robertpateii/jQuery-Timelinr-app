@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/reset.css')
+    link(rel='stylesheet', href='/css/style_v_app.css')
+    link(rel='stylesheet', href='/css/app.css')
+    script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js')
+    script(type='text/javascript', src='/js/jquery.timelinr-0.9.5.js')
+    script(type='text/javascript', src='/js/issues.js')
+  body
+    ul#nav
+        if !user
+            li 
+                a(href='/admin') Admin
+        else
+            li
+                a(href='/logout') Log Out
+    !{body}

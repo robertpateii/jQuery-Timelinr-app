@@ -1,0 +1,22 @@
+h1= title
+
+form(action='/admin', method='post', enctype='multipart/form-data')
+    p 
+      input(name='date',type='date',required) 
+    p 
+      input(name='text',required,placeholder='Comments')
+    p 
+      input(name='image',type='file',accept='image/jpeg,image/png,image/gif',required)
+    p 
+      button(type='submit',value='submitted') Add Entry
+     
+if (isPost===true) 
+  p=text
+  p=date
+  p=image.name
+  p=image.size
+    |  Bytes
+  p=image.path
+  p=workingDir
+  p=imageDir
+  p=imageModDate

@@ -1,0 +1,8 @@
+h1= title
+p You are not an admin!
+p 
+    | To request access, send the admin your Google user ID:
+    if (!user)
+       | (<a href="/auth/google">Login with Google</a> to see it).
+    else 
+       | #{user.id}.
